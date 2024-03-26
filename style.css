@@ -1,0 +1,111 @@
+* {
+    background-color: #2B2B2B;
+}
+
+
+/* Стили текста */
+a {
+    font-size: 18px;
+    word-spacing:8px;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: "Wix Madefor Text", sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    color: #ffffff;
+    width: fit-content;
+    top: 105px;
+    position: absolute;
+    background: none;
+    font-family: "Wix Madefor Text", sans-serif;
+    font-size: 60px;
+    line-height: 1.23;
+    margin-top: 177px;
+    word-spacing: -5px;
+}
+
+
+
+nav {
+    margin-top: 46px;
+}
+
+ul {
+    width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    list-style-type: none;
+}
+
+#nav_button {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 74px;
+}
+
+.nav_button {
+    padding-right: 50px;
+}
+
+#loupe {
+    margin-right: 48px;
+    width: 23px;
+    height: 23px;
+}
+
+#logo_pazl_and_cod {
+    margin-left: 60px;
+}
+
+hr {
+    width: 1440px;
+    margin: auto;
+    margin-top: 34px;
+}
+
+.hero {
+    width: 1440px;
+    margin: auto;
+}
+
+
+
+span {
+    font-size: 100px; 
+    line-height: 0.7;
+    font-family: "Wix Madefor Text", sans-serif;
+    font-style: initial;
+    color: #ffffff;
+    background: linear-gradient(45deg, #DF2B32, #F24A15);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+    
+
+#center_photo {
+    background-image: url(./background.svg);
+    width: 1540px;
+    margin-left: 114px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.button{
+    position: absolute;
+    font-family: "Wix Madefor Text", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    top: 570px;
+    height: 70px;
+    width: 180px;
+    border-radius: 5px;
+    border: none;
+    background: #F82D26;
+    color: #ffffff;
+    box-shadow: 0px 20px 50px 5px rgba(255, 255, 255, 0.2);
+}
